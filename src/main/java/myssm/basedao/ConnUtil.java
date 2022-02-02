@@ -10,8 +10,8 @@ public class ConnUtil {
     //private static ThreadLocal<Object> threadLocal2 = new ThreadLocal<>();
     //private static ThreadLocal<Object> threadLocal3 = new ThreadLocal<>();
 
-    public static final String DRIVER = "com.mysql.jdbc.Driver" ;
-    public static final String URL = "jdbc:mysql://localhost:3306/qqzonedb?useUnicode=true&characterEncoding=utf-8&useSSL=false";
+    public static final String DRIVER = "com.mysql.cj.jdbc.Driver" ;
+    public static final String URL = "jdbc:mysql://localhost:3306/qqzone?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8";
     public static final String USER = "root";
     public static final String PWD = "123456" ;
 
