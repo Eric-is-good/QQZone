@@ -91,7 +91,7 @@ public abstract class BaseDAO<T> {
             //判断如果是自定义类型，则需要调用这个自定义类的带一个参数的构造方法，创建出这个自定义的实例对象，然后将实例对象赋值给这个属性
 
             if(isMyType(typeName)){
-                //假设typeName是"com.atguigu.qqzone.pojo.UserBasic"
+                //假设typeName是"qqzone.pojo.UserBasic"
                 Class typeNameClass = Class.forName(typeName);
                 Constructor constructor = typeNameClass.getDeclaredConstructor(Integer.class);
                 propertyValue = constructor.newInstance(propertyValue);
