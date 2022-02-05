@@ -62,7 +62,7 @@
                         <div class="h32 center" style="width:100%;" th:text="${reply.author.nickName}">段誉</div>
                     </td>
                     <td class="reply_title" th:onmouseover="|showDelImg('img${reply.id}')|" th:onmouseout="|hiddenDelImg('img${reply.id}')|">
-                        <span th:text="|回复：${session.topic.title}|">萧某今天就和天下群雄决一死战，你们一起上吧！</span>
+                        <span th:text="|回复:${session.topic.title}|">萧某今天就和天下群雄决一死战，你们一起上吧！</span>
                         <!--
                             出现删除这个小图标的条件：
                             1. 在我自己的空间（那当然我对自己的空间拥有所有的操作权限）
