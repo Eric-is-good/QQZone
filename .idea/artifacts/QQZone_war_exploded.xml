@@ -33,6 +33,7 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.15.0" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.15.0" />
+          <element id="library" level="project" name="Maven: eric:myssm:1.0.0" />
         </element>
       </element>
     </root>

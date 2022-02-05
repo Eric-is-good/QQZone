@@ -163,6 +163,13 @@
             <artifactId>taglibs-standard-spec</artifactId>
             <version>1.2.5</version>
         </dependency>
+
+        <!-- 自己的库 -->
+        <dependency>
+            <groupId>eric</groupId>
+            <artifactId>myssm</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
